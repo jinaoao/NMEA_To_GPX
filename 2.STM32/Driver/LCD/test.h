@@ -1,0 +1,23 @@
+#ifndef __TEST_H
+#define __TEST_H
+
+#ifdef __cplusplus
+ extern "C" {
+#endif /* __cplusplus */
+
+#include "sys.h"
+#include "lcd_3.5tft.h"
+#include "delay.h"
+
+void LCD_ClearTest(void);			// «Â∆¡≤‚ ‘
+void LCD_TextTest(void);			// Œƒ±æœ‘ æ≤‚ ‘
+void LCD_FillTest(void);			// æÿ–ŒÃÓ≥‰≤‚ ‘
+void LCD_ColorTest(void);			// —’…´≤‚ ‘
+void LCD_GrahicTest(void);			// ªÊÕº≤‚ ‘
+void LCD_HorizontalText(void);	// ∫·∆¡≤‚ ‘
+
+#ifdef __cplusplus
+}
+#endif /* __cplusplus */
+	 
+#endif

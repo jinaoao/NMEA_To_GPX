@@ -1,0 +1,564 @@
+# depslib dependency file v1.0
+1629508758 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<sstream>
+	".\inc\GPX.h"
+	".\inc\nmea\nmea.h"
+
+1629452607 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\gpx.cpp
+	<iostream>
+	"../inc/GPX.h"
+
+1629380612 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\gpx.h
+	<string>
+
+1628083535 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\context.c
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+
+1192775010 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\context.h
+	"config.h"
+
+1205214976 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\config.h
+	<assert.h>
+
+1628083567 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\generate.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/sentence.h"
+	"../inc/nmea/generate.h"
+	"../inc/nmea/units.h"
+	<string.h>
+	<stdlib.h>
+	<math.h>
+
+1192775014 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\tok.h
+	"config.h"
+
+1629508247 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\sentence.h
+	"info.h"
+
+1195116622 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\info.h
+	"time.h"
+
+1628568045 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\time.h
+	"config.h"
+
+1192775010 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\generate.h
+	"sentence.h"
+
+1192775014 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\units.h
+	"config.h"
+
+1628083578 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\generator.c
+	"../inc/nmea/gmath.h"
+	"../inc/nmea/generate.h"
+	"../inc/nmea/generator.h"
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdlib.h>
+
+1205214976 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\gmath.h
+	"info.h"
+
+1192775010 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\generator.h
+	"info.h"
+
+1628083581 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\gmath.c
+	"../inc/nmea/gmath.h"
+	<math.h>
+	<float.h>
+
+1628083585 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\info.c
+	<string.h>
+	"../inc/nmea/info.h"
+
+1629508579 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\parse.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/parse.h"
+	"../inc/nmea/context.h"
+	"../inc/nmea/gmath.h"
+	"../inc/nmea/units.h"
+	<string.h>
+	<stdio.h>
+
+1629508265 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\parse.h
+	"sentence.h"
+
+1629508590 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\parser.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/parse.h"
+	"../inc/nmea/parser.h"
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdlib.h>
+
+1192775012 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\parser.h
+	"info.h"
+
+1628083613 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\sentence.c
+	"../inc/nmea/sentence.h"
+	<string.h>
+
+1628568314 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\time.c
+	"../inc/nmea/time.h"
+	<windows.h>
+	<time.h>
+
+1628566561 source:c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\src\tok.c
+	"../inc/nmea/tok.h"
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<limits.h>
+
+1205214976 c:\users\19363\desktop\my desktop\programming\program file\c++\gpx\gpx\inc\nmea\nmea.h
+	"./config.h"
+	"./units.h"
+	"./gmath.h"
+	"./info.h"
+	"./sentence.h"
+	"./generate.h"
+	"./generator.h"
+	"./parse.h"
+	"./parser.h"
+	"./context.h"
+
+1628083535 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\context.c
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+
+1192775010 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\context.h
+	"config.h"
+
+1205214976 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\config.h
+	<assert.h>
+
+1628083567 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\generate.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/sentence.h"
+	"../inc/nmea/generate.h"
+	"../inc/nmea/units.h"
+	<string.h>
+	<stdlib.h>
+	<math.h>
+
+1192775014 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\tok.h
+	"config.h"
+
+1629508247 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\sentence.h
+	"info.h"
+
+1195116622 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\info.h
+	"time.h"
+
+1628568045 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\time.h
+	"config.h"
+
+1192775010 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\generate.h
+	"sentence.h"
+
+1192775014 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\units.h
+	"config.h"
+
+1628083578 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\generator.c
+	"../inc/nmea/gmath.h"
+	"../inc/nmea/generate.h"
+	"../inc/nmea/generator.h"
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdlib.h>
+
+1205214976 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\gmath.h
+	"info.h"
+
+1192775010 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\generator.h
+	"info.h"
+
+1628083581 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\gmath.c
+	"../inc/nmea/gmath.h"
+	<math.h>
+	<float.h>
+
+1629452607 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\gpx.cpp
+	<iostream>
+	"../inc/GPX.h"
+
+1629380612 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\gpx.h
+	<string>
+
+1628083585 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\info.c
+	<string.h>
+	"../inc/nmea/info.h"
+
+1629508579 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\parse.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/parse.h"
+	"../inc/nmea/context.h"
+	"../inc/nmea/gmath.h"
+	"../inc/nmea/units.h"
+	<string.h>
+	<stdio.h>
+
+1629508265 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\parse.h
+	"sentence.h"
+
+1629508590 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\parser.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/parse.h"
+	"../inc/nmea/parser.h"
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdlib.h>
+
+1192775012 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\parser.h
+	"info.h"
+
+1628083613 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\sentence.c
+	"../inc/nmea/sentence.h"
+	<string.h>
+
+1628568314 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\time.c
+	"../inc/nmea/time.h"
+	<windows.h>
+	<time.h>
+
+1628566561 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\tok.c
+	"../inc/nmea/tok.h"
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<limits.h>
+
+1640246374 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<sstream>
+	".\inc\GPX.h"
+	".\inc\nmea\nmea.h"
+	".\inc\Tracker.h"
+
+1205214976 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\nmea\nmea.h
+	"./config.h"
+	"./units.h"
+	"./gmath.h"
+	"./info.h"
+	"./sentence.h"
+	"./generate.h"
+	"./generator.h"
+	"./parse.h"
+	"./parser.h"
+	"./context.h"
+
+1640246621 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\src\tracker.cpp
+	"../inc/Tracker.h"
+
+1640246553 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\nmea_to_gpx\inc\tracker.h
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+	<iomanip>
+	"..\inc\GPX.h"
+	"..\inc\nmea\nmea.h"
+
+1640498533 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<sstream>
+	".\inc\GPX.h"
+	".\inc\nmea\nmea.h"
+	".\inc\Tracker.h"
+
+1629380612 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\gpx.h
+	<string>
+
+1205214976 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\nmea.h
+	"./config.h"
+	"./units.h"
+	"./gmath.h"
+	"./info.h"
+	"./sentence.h"
+	"./generate.h"
+	"./generator.h"
+	"./parse.h"
+	"./parser.h"
+	"./context.h"
+
+1640496936 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\config.h
+	<assert.h>
+
+1192775014 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\units.h
+	"config.h"
+
+1205214976 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\gmath.h
+	"info.h"
+
+1640495888 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\info.h
+	"time.h"
+
+1640312580 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\time.h
+	"config.h"
+
+1640496015 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\sentence.h
+	"info.h"
+
+1192775010 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\generate.h
+	"sentence.h"
+
+1192775010 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\generator.h
+	"info.h"
+
+1640496067 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\parse.h
+	"sentence.h"
+
+1192775012 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\parser.h
+	"info.h"
+
+1640496494 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\context.h
+	"config.h"
+
+1640497894 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\tracker.h
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+	<iomanip>
+	"..\inc\GPX.h"
+	"..\inc\nmea\nmea.h"
+
+1640496594 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\context.c
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+
+1628083567 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\generate.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/sentence.h"
+	"../inc/nmea/generate.h"
+	"../inc/nmea/units.h"
+	<string.h>
+	<stdlib.h>
+	<math.h>
+
+1192775014 c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\inc\nmea\tok.h
+	"config.h"
+
+1628083578 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\generator.c
+	"../inc/nmea/gmath.h"
+	"../inc/nmea/generate.h"
+	"../inc/nmea/generator.h"
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdlib.h>
+
+1628083581 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\gmath.c
+	"../inc/nmea/gmath.h"
+	<math.h>
+	<float.h>
+
+1629452607 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\gpx.cpp
+	<iostream>
+	"../inc/GPX.h"
+
+1628083585 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\info.c
+	<string.h>
+	"../inc/nmea/info.h"
+
+1640497988 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\parse.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/parse.h"
+	"../inc/nmea/context.h"
+	"../inc/nmea/gmath.h"
+	"../inc/nmea/units.h"
+	<string.h>
+	<stdio.h>
+
+1640496778 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\parser.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/parse.h"
+	"../inc/nmea/parser.h"
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdlib.h>
+
+1640496821 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\sentence.c
+	"../inc/nmea/sentence.h"
+	<string.h>
+
+1640312769 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\time.c
+	"../inc/nmea/time.h"
+	<windows.h>
+	<time.h>
+
+1628566561 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\tok.c
+	"../inc/nmea/tok.h"
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<limits.h>
+
+1640498512 source:c:\users\jinao\desktop\workspace\program in progress\gps_tracker\code file\nmea_to_gpx\src\tracker.cpp
+	"../inc/Tracker.h"
+
+1641036554 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<sstream>
+	".\inc\GPX.h"
+	".\inc\nmea\nmea.h"
+	".\inc\Tracker.h"
+
+1629380612 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\gpx.h
+	<string>
+
+1205214976 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\nmea.h
+	"./config.h"
+	"./units.h"
+	"./gmath.h"
+	"./info.h"
+	"./sentence.h"
+	"./generate.h"
+	"./generator.h"
+	"./parse.h"
+	"./parser.h"
+	"./context.h"
+
+1640496936 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\config.h
+	<assert.h>
+
+1192775014 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\units.h
+	"config.h"
+
+1205214976 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\gmath.h
+	"info.h"
+
+1640495888 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\info.h
+	"time.h"
+
+1640312580 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\time.h
+	"config.h"
+
+1640496015 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\sentence.h
+	"info.h"
+
+1192775010 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\generate.h
+	"sentence.h"
+
+1192775010 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\generator.h
+	"info.h"
+
+1640496067 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\parse.h
+	"sentence.h"
+
+1192775012 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\parser.h
+	"info.h"
+
+1640496494 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\context.h
+	"config.h"
+
+1640497894 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\tracker.h
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+	<iomanip>
+	"..\inc\GPX.h"
+	"..\inc\nmea\nmea.h"
+
+1640496594 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\context.c
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdarg.h>
+	<stdio.h>
+
+1628083567 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\generate.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/sentence.h"
+	"../inc/nmea/generate.h"
+	"../inc/nmea/units.h"
+	<string.h>
+	<stdlib.h>
+	<math.h>
+
+1192775014 c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\inc\nmea\tok.h
+	"config.h"
+
+1628083578 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\generator.c
+	"../inc/nmea/gmath.h"
+	"../inc/nmea/generate.h"
+	"../inc/nmea/generator.h"
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdlib.h>
+
+1628083581 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\gmath.c
+	"../inc/nmea/gmath.h"
+	<math.h>
+	<float.h>
+
+1629452607 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\gpx.cpp
+	<iostream>
+	"../inc/GPX.h"
+
+1628083585 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\info.c
+	<string.h>
+	"../inc/nmea/info.h"
+
+1640534770 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\parse.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/parse.h"
+	"../inc/nmea/context.h"
+	"../inc/nmea/gmath.h"
+	"../inc/nmea/units.h"
+	<string.h>
+	<stdio.h>
+
+1640496778 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\parser.c
+	"../inc/nmea/tok.h"
+	"../inc/nmea/parse.h"
+	"../inc/nmea/parser.h"
+	"../inc/nmea/context.h"
+	<string.h>
+	<stdlib.h>
+
+1640496821 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\sentence.c
+	"../inc/nmea/sentence.h"
+	<string.h>
+
+1640312769 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\time.c
+	"../inc/nmea/time.h"
+	<windows.h>
+	<time.h>
+
+1628566561 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\tok.c
+	"../inc/nmea/tok.h"
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<limits.h>
+
+1640498606 source:c:\users\jinao\desktop\workspace\program in progress\1.gps_tracker\code file\nmea_to_gpx\src\tracker.cpp
+	"../inc/Tracker.h"
+
